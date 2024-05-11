@@ -33,6 +33,13 @@ The dataset comes from Kaggle under a dataset called “Spotify Top Songs and Au
 - Scipy
 - Statsmodels
 
+  ## Key Features
+- **Data Exploration**: Examined the Spotify dataset to understand the distribution and characteristics of musical attributes.
+- **Regression Analysis**: Investigated the impact of major and minor modes and spoken words on the danceability and energy levels of tracks using Ordinary Least Squares (OLS) regression analysis.
+- **Hypothesis Testing**: Performed t-tests to assess the effect of music mode on danceability and energy levels, and to evaluate the influence of loudness intensity on both acoustic and non-acoustic tracks for statistical significance.
+- **Correlation Analysis**: Explored correlations between musical attributes using Pearson’s correlation coefficient to identify the strength and direction of relationships between two variables.
+- **Visualizations**: Visualized findings using scatter plots, hexbin plots, joint plots, regression plots, box plots, and heatmaps to effectively convey and interpret the results.
+
 ## Notebook Description
 - **Spotify Musical Attributes Analytics**: Title of the Jupyter Notebook file
 - **Quick Data Overview**: Quick examination of the dataset
@@ -57,13 +64,6 @@ The dataset comes from Kaggle under a dataset called “Spotify Top Songs and Au
 - The levels of spoken words a track has significantly influences how energetic it feels and how acceptable it is for dancing. The differences in energy level and danceability between tracks of various speechiness are not random, but rather unique characteristics of each mode. Interestingly, the speechiness of a track gives a small but remarkable portion of the variability in both energy and danceability levels. According to the analysis, the average track has the most energy and danceability levels when there is little to no spoken words. This insight points out the importance of considering the spoken word levels when examining and comprehending the energetic and danceable qualities of music tracks.
 - The low p-value of the acoustiness and danceability attributes shows that there is a significant impact on its danceability. Songs with various acoustic characteristics present distinct danceability levels that are unlikely to occur by random chance alone. The analysis states that tracks with the lowest acoustic levels (non-acoustic) tend to have the lowest levels of danceability.
 - There is an indication that the acoustic nature of a track, whether acoustic or non-acoustic, gives a significant impact on its loudness thanks to its significantly low p-value. Tracks with different acoustic characteristics display distinct loudness levels that are not likely to occur by random chance alone. In the analysis, it indicates that some tracks with the lowest acoustic characteristics (non-acoustic) tend to be the loudest out of all of the tracks.
-
-## Key Features
-- **Data Exploration**: Examined the Spotify dataset to understand the distribution and characteristics of musical attributes.
-- **Regression Analysis**: Investigated the impact of major and minor modes and spoken words on the danceability and energy levels of tracks using Ordinary Least Squares (OLS) regression analysis.
-- **Hypothesis Testing**: Performed t-tests to assess the effect of music mode on danceability and energy levels, and to evaluate the influence of loudness intensity on both acoustic and non-acoustic tracks for statistical significance.
-- **Correlation Analysis**: Explored correlations between musical attributes using Pearson’s correlation coefficient to identify the strength and direction of relationships between two variables.
-- **Visualizations**: Visualized findings using scatter plots, hexbin plots, joint plots, regression plots, box plots, and heatmaps to effectively convey and interpret the results.
 
 ## Contact Information
 Steven Nguyen
