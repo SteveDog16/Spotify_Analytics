@@ -13,7 +13,7 @@ The questions that I am trying to answer are:
 - Do acoustic tracks tend to have lower loudness compared to non-acoustic ones?
 - Are live performances (higher liveness values) associated with certain musical characteristics?
 
-# Data
+## Data
 The dataset comes from Kaggle under a dataset called “Spotify Top Songs and Audio Features”. It is publicly available for everyone to use. Here is the link to the dataset. https://www.kaggle.com/datasets/julianoorlandi/spotify-top-songs-and-audio-features. Data used in the Jupyter Notebook file include:
 - **Mode**: Indicates whether a track is in a major or minor key, specifying the type of scale from which its melodic content is obtained. For example, a major mode might convey a happier or brighter mood, while a minor mode might transmit a more somber or melancholic mood.
 - **Danceability**: Describes how suitable a track is for dancing based on different musical elements such as tempo, rhythm stability, beat strength, and overall regularity. A higher value indicates that the track is more danceable, while a lower value suggests it may be less suitable for dancing.
@@ -26,14 +26,14 @@ The dataset comes from Kaggle under a dataset called “Spotify Top Songs and Au
 - **Loudness**: Represents the overall volume of a track in decibels (dB), with values typically ranging between -60 and 0 dB. It is useful for comparing the relative loudness of tracks and is an important factor in determining the perceived intensity of a piece of music.
 - **Tempo**: Specifies the overall speed or pace of a track in beats per minute (BPM). It helps distinguish the rhythmic feel of a piece of music and is essential for performers and listeners to synchronize their movements or understand the mood of the music.
 
-# Libraries Used
+## Libraries Used
 - Pandas
 - Matplotlib
 - Seaborn
 - Scipy
 - Statsmodels
 
-  ## Key Features
+## Key Features
 - **Data Exploration**: Examined the Spotify dataset to understand the distribution and characteristics of musical attributes.
 - **Regression Analysis**: Investigated the impact of major and minor modes and spoken words on the danceability and energy levels of tracks using Ordinary Least Squares (OLS) regression analysis.
 - **Hypothesis Testing**: Performed t-tests to assess the effect of music mode on danceability and energy levels, and to evaluate the influence of loudness intensity on both acoustic and non-acoustic tracks for statistical significance.
