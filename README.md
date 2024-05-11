@@ -26,6 +26,13 @@ The dataset comes from Kaggle under a dataset called “Spotify Top Songs and Au
 - **Loudness**: Represents the overall volume of a track in decibels (dB), with values typically ranging between -60 and 0 dB. It is useful for comparing the relative loudness of tracks and is an important factor in determining the perceived intensity of a piece of music.
 - **Tempo**: Specifies the overall speed or pace of a track in beats per minute (BPM). It helps distinguish the rhythmic feel of a piece of music and is essential for performers and listeners to synchronize their movements or understand the mood of the music.
 
+# Libraries Used
+- Pandas
+- Matplotlib
+- Seaborn
+- Scipy
+- Statsmodels
+
 ## Notebook Description
 - **Spotify Musical Attributes Analytics**: Title of the Jupyter Notebook file
 - **Quick Data Overview**: Quick examination of the dataset
@@ -47,9 +54,8 @@ The dataset comes from Kaggle under a dataset called “Spotify Top Songs and Au
 - **Correlation Analysis**: Explored correlations between musical attributes using Pearson’s correlation coefficient to identify the strength and direction of relationships between two variables.
 - **Visualizations**: Visualized findings using scatter plots, hexbin plots, joint plots, regression plots, box plots, and heatmaps to effectively convey and interpret the results.
 
-## Credits
-Kaggle for providing the dataset which was created with Spotify Top Songs Charts and Spotify Web API.
+## Contact Information
+Steven Nguyen
 
-Link to the dataset: https://www.kaggle.com/datasets/julianoorlandi/spotify-top-songs-and-audio-features
+Email: sn924@drexel.edu
 
-Open-source libraries such as Pandas, Matplotlib, Seaborn, Statsmodels, and SciPy for their contributions to data analysis and visualization.
