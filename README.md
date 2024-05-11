@@ -13,6 +13,19 @@ The questions that I am trying to answer are:
 - Do acoustic tracks tend to have lower loudness compared to non-acoustic ones?
 - Are live performances (higher liveness values) associated with certain musical characteristics?
 
+# Data
+The dataset comes from Kaggle under a dataset called “Spotify Top Songs and Audio Features”. It is publicly available for everyone to use. Here is the link to the dataset. https://www.kaggle.com/datasets/julianoorlandi/spotify-top-songs-and-audio-features. Data used in the Jupyter Notebook file include:
+- **Mode**: Indicates whether a track is in a major or minor key, specifying the type of scale from which its melodic content is obtained. For example, a major mode might convey a happier or brighter mood, while a minor mode might transmit a more somber or melancholic mood.
+- **Danceability**: Describes how suitable a track is for dancing based on different musical elements such as tempo, rhythm stability, beat strength, and overall regularity. A higher value indicates that the track is more danceable, while a lower value suggests it may be less suitable for dancing.
+- **Energy**: Represents an emotional measure of intensity and activity in a track, ranging from 0.0 to 1.0. Energetic tracks typically feel fast, loud, and noisy, while lower energy tracks may feel calmer or more somber.
+- **Speechiness**: Detects the presence of spoken words in a track, with values ranging from 0.0 to 1.0. Higher values indicate a higher proportion of spoken words, suggesting that the track is more speech-like rather than purely musical.
+- **Acousticness**: Indicates the likelihood that a track is acoustic, ranging from 0.0 to 1.0. A higher value suggests a higher chance the track contains acoustic elements rather than electronic or synthesized sounds.
+- **Instrumentalness**: Predicts whether a track contains vocals, with values ranging from 0.0 to 1.0. Higher values indicate a greater likelihood that the track is instrumental, meaning it contains little to no vocal content.
+- **Liveness**: Detects the presence of an audience in a recording, with higher values indicating a greater probability that the track was performed live rather than in a studio setting.
+- **Valence**: Describes the musical positiveness carried by a track, ranging from 0.0 to 1.0. Tracks with higher valence values tend to sound more positive or uplifting, while lower values may convey a more negative or sad mood.
+- **Loudness**: Represents the overall volume of a track in decibels (dB), with values typically ranging between -60 and 0 dB. It is useful for comparing the relative loudness of tracks and is an important factor in determining the perceived intensity of a piece of music.
+- **Tempo**: Specifies the overall speed or pace of a track in beats per minute (BPM). It helps distinguish the rhythmic feel of a piece of music and is essential for performers and listeners to synchronize their movements or understand the mood of the music.
+
 ## Notebook Description
 - **Spotify Musical Attributes Analytics**: Title of the Jupyter Notebook file
 - **Quick Data Overview**: Quick examination of the dataset
