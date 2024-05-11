@@ -7,3 +7,8 @@ This project explores the relationships between various musical attributes and t
 - **Hypothesis Testing**: Performed t-tests to assess the effect of music mode on danceability and energy levels, and to evaluate the influence of loudness intensity on both acoustic and non-acoustic tracks for statistical significance.
 - **Correlation Analysis**: Explored correlations between musical attributes using Pearson’s correlation coefficient to identify the strength and direction of relationships between two variables.
 - **Visualizations**: Visualized findings using scatter plots, hexbin plots, joint plots, regression plots, box plots, and heatmaps to effectively convey and interpret the results.
+
+## Credits
+Kaggle for providing the dataset which was created with Spotify Top Songs Charts and Spotify Web API.
+Link to the dataset: https://www.kaggle.com/datasets/julianoorlandi/spotify-top-songs-and-audio-features 
+Open-source libraries such as Pandas, Matplotlib, Seaborn, Statsmodels, and SciPy for their contributions to data analysis and visualization.
