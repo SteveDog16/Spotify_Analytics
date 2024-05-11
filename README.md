@@ -10,5 +10,7 @@ This project explores the relationships between various musical attributes and t
 
 ## Credits
 Kaggle for providing the dataset which was created with Spotify Top Songs Charts and Spotify Web API.
-Link to the dataset: https://www.kaggle.com/datasets/julianoorlandi/spotify-top-songs-and-audio-features 
+
+Link to the dataset: https://www.kaggle.com/datasets/julianoorlandi/spotify-top-songs-and-audio-features
+
 Open-source libraries such as Pandas, Matplotlib, Seaborn, Statsmodels, and SciPy for their contributions to data analysis and visualization.
