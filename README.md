@@ -4,14 +4,28 @@ This project explores the relationships between various musical attributes and t
 The questions that I am trying to answer are:
 - How does the distribution of mode (major or minor) affect danceability and energy of tracks?
 - Is there a correlation between tempo and danceability?
+- Is there a correlation between loudness and energy?
 - Do tracks with higher energy tend to have higher danceability?
+- Do tracks with higher valence tend to have higher danceability?
+- How does tempo vary across different levels of valence?
 - How does the presence of spoken words (speechiness) affect the perceived energy and danceability of tracks?
 - Is there a relationship between acousticness and instrumentalness?
-- Are live performances (higher liveness values) associated with certain musical characteristics such as tempo, energy, or valence?
-- Do tracks with higher valence tend to have higher danceability?
-- Is there a correlation between loudness and energy?
 - Do acoustic tracks tend to have lower loudness compared to non-acoustic ones?
-- How does tempo vary across different levels of valence?
+- Are live performances (higher liveness values) associated with certain musical characteristics?
+
+## Notebook Description
+- **Spotify Musical Attributes Analytics**: Title of the Jupyter Notebook file
+- **Quick Data Overview**: Quick examination of the dataset
+- **Impact of Mode Distribution on Danceability and Energy of Tracks**: section that answers the question “How does the distribution of mode (major or minor) affect danceability and energy of tracks?”
+- **Correlation Between Tempo and Danceability**: section that answers the question “Is there a correlation between tempo and danceability?”
+- **Correlation Between Loudness and Energy**: section that answers the question “Is there a correlation between loudness and energy?”
+- **Correlation of High Energy and High Danceability**: section that answers the question “Do tracks with higher energy tend to have higher danceability?”
+- **Correlation of High Valence and High Danceability**: section that answers the question “Do tracks with higher valence tend to have higher danceability?”
+- **Variance of Tempo Across Different Levels of Valence**: section that answers the question “How does tempo vary across different levels of valence?”
+- **Impact of Speechiness on Energy and Danceability of Tracks**: section that answers the question “How does the presence of spoken words (speechiness) affect the perceived energy and danceability of tracks?”
+- **Relationship Between Acoustiness and Instrumentalness**: section that answers the question “Is there a relationship between acousticness and instrumentalness?”
+- **Comparing Loudness Levels: Acoustic vs. Non-Acoustic Tracks**: section that answers the question “Do acoustic tracks tend to have lower loudness compared to non-acoustic ones?”
+- **Association Between Liveness Values and Musical Characteristics**: section that answers the question “Are live performances (higher liveness values) associated with certain musical characteristics?”
 
 ## Key Features
 - **Data Exploration**: Examined the Spotify dataset to understand the distribution and characteristics of musical attributes.
